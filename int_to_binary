@@ -1,0 +1,9 @@
+while True:
+    try:
+        x=int(input("Please input a whole number: "))
+    except:
+        print("invalid num")
+    else:
+        binary=(str(bin(x))[2:])
+        print(str(x)+" is "+ binary+" in binary")
+        break
